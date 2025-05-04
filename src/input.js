@@ -10,7 +10,7 @@ export class InputHandler {
         });
         window.addEventListener("keyup", (e) => {
             if (keyBinds[e.key]) {
-                this.keys.splice(this.keys.indexOf(e.key), 1);
+                this.keys.splice(this.keys.indexOf(keyBinds[e.key]), 1);
             }
         });
     }
