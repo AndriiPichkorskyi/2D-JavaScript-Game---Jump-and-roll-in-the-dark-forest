@@ -19,3 +19,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+-   **Code**: The source code in this repository (e.g., `index.html` `main.js` `background.js` `collisionAnimation.js` `enemies.js` `floatingMessages.js` `input.js` `particle.js` `player.js` `playerStates.js` `sound.js` `ui.js` `styles.css`) is licensed under the [MIT License](LICENSE). See the `LICENSE` file for details.
+-   **Third-Party Assets**:
+    -   **Images**: The image assets from [Bevouliin](https://bevouliin.com/) are not covered by the MIT License. They are subject to Bevouliin’s own licensing terms, which may include restrictions on redistribution. Users must acquire these assets directly from Bevouliin and comply with their license.
+    -   **Sounds**: The sound assets from [OpenGameArt](https://opengameart.org/) are not covered by the MIT License. Each sound asset is licensed under its own terms (e.g., Creative Commons licenses), as specified on the asset’s page. Users must comply with these licenses, which may require attribution or restrict commercial use.
+-   The repository author is not the creator of the image or sound assets and claims no ownership over them. Users are responsible for ensuring compliance with the assets’ respective licenses.

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JavaScript Game</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Karla:wght@700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./src/style.css" />
+    </head>
+    <body>
+        <canvas id="canvas1"></canvas>
+        <div class="controls">
+            <h2>Controls:</h2>
+            <!-- <p>Arrow Down, Arrow Up, Arrow Left, Arrow Right, Enter</p> -->
+            <p>A, W, S, D, Enter</p>
+        </div>
+
+        <img id="player" src="assets/player.png" />
+        <!-- <img id="layer1" src="assets/layer-1.png">
+    <img id="layer2" src="assets/layer-2.png">
+    <img id="layer3" src="assets/layer-3.png">
+    <img id="layer4" src="assets/layer-4.png">
+    <img id="layer5" src="assets/layer-5.png"> -->
+        <img id="layer1" src="assets/forest/layer-1.png" />
+        <img id="layer2" src="assets/forest/layer-2.png" />
+        <img id="layer3" src="assets/forest/layer-3.png" />
+        <img id="layer4" src="assets/forest/layer-4.png" />
+        <img id="layer5" src="assets/forest/layer-5.png" />
+        <img id="enemy_fly" src="assets/enemy_fly.png" />
+        <img id="enemy_plant" src="assets/enemy_plant.png" />
+        <img id="enemy_spider_big" src="assets/enemy_spider_big.png" />
+        <img id="enemy_zombie" src="assets/enemy_zombie.png" />
+        <img id="fire" src="assets/fire.png" />
+        <img id="collisionAnimation" src="assets/boom.png" />
+        <img id="lives" src="assets/lives.png" />
+        <audio src="./assets/sounds/death_fly.wav" preload="auto"></audio>
+        <audio src="./assets/sounds/death_default.wav" preload="auto"></audio>
+        <audio src="./assets/sounds/dog_run.ogg" preload="auto"></audio>
+        <audio src="./assets/sounds/hurt_03.ogg" preload="auto"></audio>
+        <audio src="./assets/sounds/barking_01.ogg" preload="auto"></audio>
+        <audio src="./assets/sounds/jump.ogg" preload="auto"></audio>
+        <audio src="./assets/sounds/fire_impact.wav" preload="auto"></audio>
+        <audio src="./assets/sounds/fireLoop.ogg" preload="auto"></audio>
+
+        <script type="module" src="./src/main.js"></script>
+    </body>
+</html>
