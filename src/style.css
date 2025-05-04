@@ -33,6 +33,23 @@ body {
     display: inline-block;
 }
 
+a:visited,
+a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    transition-duration: 250ms;
+    transition-property: transform, color;
+    width: fit-content;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+a:hover {
+    transform: scale(1.2);
+    color: tomato;
+}
+
 p {
     display: inline-block;
 }
